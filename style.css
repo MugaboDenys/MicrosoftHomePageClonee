@@ -1,0 +1,45 @@
+#site {
+    background: rgb(34, 110, 242);
+    align-items: center;
+    height: 60px;
+    text-align: center;
+}
+#cont1 {
+    background-color: rgb(236, 234, 230);
+}
+
+body {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: rgb(236, 234, 230);
+}
+
+#link1 {
+    color: white;
+    text-decoration-line: none;
+    flex: auto;
+    padding-top: 10px;
+    
+}
+#link1:hover {
+    text-decoration-line: underline;
+}
+
+.pic1 {
+    float: left;
+    
+}
+
+
+.navbar {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 350;
+}
+
+.nav-item:hover {
+    text-decoration-line: underline;
+}
+
