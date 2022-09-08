@@ -27,9 +27,27 @@ body {
     text-decoration-line: underline;
 }
 
+#link2 {
+    text-decoration-line: none;
+    font-size: 1rem;
+    
+}
+#link2:hover {
+    text-decoration-line: underline;
+}
+
 .pic1 {
     float: left;
     
+}
+
+#par {
+    font-size: 12px;
+    
+}
+
+.words1{
+    padding-top: 100px;
 }
 
 
@@ -43,3 +61,20 @@ body {
     text-decoration-line: underline;
 }
 
+#cont2 {
+    padding: 100px;
+    width: auto;
+    height: 300px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;    
+    font-weight: 350;
+}
+
+.card {
+    border: none;
+}
+
+#cont4 {
+    height: 800px;
+    width: 1000px;  
+    background-image: url(assets/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-HighlightHero\ VP5-1596x600.jpeg);
+}
