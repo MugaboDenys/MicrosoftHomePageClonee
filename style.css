@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&family=Source+Sans+Pro:wght@300;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #site {
-    background: rgb(34, 110, 242);
+    background: rgb(10, 105, 169);
     align-items: center;
     height: 60px;
     text-align: center;
@@ -11,12 +17,13 @@
     background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Surface-Family-Platinum-Windows-11:VP5-1920x600);
     background-size: cover;
     background-position-x: left;
-    height: 500px;
+    width: 100%;
     padding-left: 100px;
 }
 
 body {
-    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -91,6 +98,17 @@ li a:hover{
 
 .btns{
     display: flex;
+    gap: 10px;
+}
+
+.btns button{
+    background-color: rgb(10, 105, 169);
+    color: white;
+}
+
+.btns button:hover {
+    background-color: rgb(7, 64, 102);
+    color: white;
 }
 
 @media (max-width: 500px) {
@@ -121,4 +139,130 @@ li a:hover{
         background-image: none;
         
     }
+}
+
+.sec3 {
+    display: flex;
+    width: 100%;
+    height: auto;    
+}
+
+.sec3 img {
+    width: 100%;
+    
+}
+.txt {
+    z-index: 1;
+    position: absolute;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    left:  200px;
+    margin-top: 100px;
+}
+
+.txt h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.txt p{
+    padding-top: 0.8rem;
+    font-size: small;
+}
+
+
+.btnL {
+    position: absolute;
+    left: 200px;
+    padding-top: 24.5%;
+}
+
+.btnL a {
+    text-decoration-line: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(10, 105, 169);
+}
+
+.btnL a:hover {
+    background-color: rgb(7, 64, 102);
+    color: white;
+}
+.cont4 {
+    padding-top: 20px;
+    padding-left: 50px;
+    
+}
+
+.cont4 > h4 {
+    font-weight: 500;
+}
+
+.cards-cont {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.cards-cont img{
+    display: block;
+    width: 100%;
+
+}
+
+.sec5 {
+    display: flex;
+    width: 100%;
+    height: auto; 
+    margin-top: 5rem;
+}
+
+.sec5 img{
+    width: 100%;
+}
+
+.btnP {
+    position: absolute;
+    left: 120px;
+    padding-top: 32.5%;
+}
+
+.btnP a {
+    text-decoration-line: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(10, 105, 169);
+}
+
+.btnP a:hover {
+    background-color: rgb(7, 64, 102);
+    color: white;
+}
+.txtP {
+    z-index: 1;
+    position: absolute;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    left:  120px;
+    margin-top: 100px;
+    color: white;
+}
+
+.txtP h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.txtP p{
+    padding-top: 0.8rem;
+    font-size: small;
 }
